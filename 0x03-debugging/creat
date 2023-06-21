@@ -1,0 +1,4 @@
+echo "input file"
+read file 
+echo "#!/bin/bash">${file}
+chmod +x ${file}
